@@ -6,6 +6,10 @@
     "target": "es5",
     "jsx": "react",
     "allowJs": true,
-    "moduleResolution": "node"
-  }
+    "moduleResolution": "node",
+    "lib": ["es6", "dom"],  // Remova 'dom' para evitar o conflito
+    "types": ["node"]  // Prioriza os tipos do Node.js
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
 }
