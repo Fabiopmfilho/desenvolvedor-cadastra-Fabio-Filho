@@ -57,7 +57,7 @@ html {
   }
 }
 
-.cadastra-footer {
+.footer-text {
   display: flex;
   justify-content: center;
   color: $color-white;
@@ -75,6 +75,7 @@ html {
 .showmore-button {
   color: $color-white;
   background: $color-orange;
+  border: none;
   width: 175px;
   height: 35px;
   text-transform: uppercase;
