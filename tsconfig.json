@@ -6,10 +6,7 @@
     "target": "es5",
     "jsx": "react",
     "allowJs": true,
-    "moduleResolution": "node",
-    "lib": ["es6", "dom"], 
-    "types": ["node"]
-  },
-  "include": ["./src/**/*"],
-  "exclude": ["node_modules"]
+    "baseUrl": "./src/ts",
+    "moduleResolution": "node"
+  }
 }
