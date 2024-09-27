@@ -1,37 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Desenvolvedor Cadastra</title>
   <link rel="stylesheet" href="main.css" />
 </head>
+
 <body>
-  <header class="header">
+  <header class="header_container">
     <div class="logo_container">
-      <img src="./img/logo.svg" alt="logo Cadastra">
+      <img src="./img/logo.svg" alt="logo Cadastra" />
     </div>
     <div class="bag_container">
-      <img src="./img/bag.svg" alt="bag icon">
+      <img src="./img/bag.svg" alt="bag icon" />
     </div>
   </header>
 
-  <div>
-    <h1>Blusas</h1>
-    <button class="btn_filter">Filtrar</button>
-    <button class="btn_sort">Ordenar</button>
-
-    <div class="menu_overlay filter_menu">
-      <h2>Filtrar</h2>
-      <button class="close_menu">Fechar</button>
-    </div>
-    <div class="menu_overlay sort_menu">
-      <h2>Ordenar</h2>
-      <button class="close_menu">Fechar</button>
+  <div class="container_btn_filter">
+    <p>Blusas</p>
+    <div class="buttons_filter">
+      <button>Filtrar</button>
+      <button>Ordenar</button>
     </div>
   </div>
 
-  <script src="bundle.js"></script>
+  <div class="menu_overlay filter_menu">
+    <div class="header_container">
+      <h2>Filtrar</h2>
+      <button class="close_menu">
+        <img src="./img/close_icon.svg" alt="close button" />
+      </button>
+    </div>
+    <div class="menu_itens">
+      <button class="btn_item">
+        <p>Cores</p>
+        <p>^</p>
+      </button>
+
+      <button class="btn_item">
+        <p>Tamanho</p>
+        <p>^</p>
+      </button>
+
+      <button class="btn_item">
+        <p>Faixa de preço</p>
+        <p>^</p>
+      </button>
+    </div>
+
+    <div class="menu_overlay sort_menu">
+      <div class="header_container">
+        <h2>Ordenar</h2>
+        <button class="close_menu">
+          <img src="./img/close_icon.svg" alt="close button" />
+        </button>
+      </div>
+      <div class="menu_itens">
+        <button class="btn_item">
+          <p>Mais recente</p>
+          <p>^</p>
+        </button>
+
+        <button class="btn_item">
+          <p>Maior preço</p>
+          <p>^</p>
+        </button>
+
+        <button class="btn_item">
+          <p>Menor preço</p>
+          <p>^</p>
+        </button>
+      </div>
+    </div>
+
+    <script src="bundle.js"></script>
 </body>
+
 </html>

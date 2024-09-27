@@ -3,6 +3,7 @@ const serverUrl = "http://localhost:5000";
 function main() {
   console.log(serverUrl);
 
+  // modal mobile
   const filterButton = document.querySelector('.btn_filter') as HTMLButtonElement;
   const sortButton = document.querySelector('.btn_sort') as HTMLButtonElement;
   const filterMenu = document.querySelector('.menu_overlay.filter_menu') as HTMLDivElement;
